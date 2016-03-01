@@ -1405,12 +1405,19 @@ h7 {
 
 /*---------------------sponsors------------------------------*/
 
-.sponsorLogo img {
+.spsorLogo {
+  width: 300px;
+  height: 350px;
+  text-align: center;
+  position: relative;
+}
+.spsorLogo img {
   width: 300px;
 }
-
-
-
+.spsorLogo h4 {
+  font-size: 20px;
+  bottom: 0;
+}
 
 /*---------------------contact us------------------------------*/
 
