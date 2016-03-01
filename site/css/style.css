@@ -240,6 +240,15 @@ h2 {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+.team {
+  text-align: center;
+}
+.team h2 {
+  color: #ED7477;
+}
+.team img {
+  border-radius: 50% 50% 50% 50%;
+}
 h3 {
   font-size: 30px;
   line-height: 34px;
@@ -961,6 +970,7 @@ footer {
   }
   .portfolio li img {
     width: 100%;
+    vertical-align: middle;
   }
   .img-indent {
     float: none;
