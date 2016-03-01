@@ -1396,6 +1396,14 @@ h7 {
   color: #ffe5e5;
 }
 
+.eventheading a {
+  color: #ffe5e5;
+}
+
+.eventheading a:hover {
+  text-decoration: none;
+}
+
 .sdescrip {
   font-size: 15px;
 }
