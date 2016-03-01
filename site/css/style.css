@@ -235,19 +235,10 @@ h2 {
   font-size: 50px;
   line-height: 52px;
 }
-.sponsorTitle {
+.spsorTitle {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
-}
-.team {
-  text-align: center;
-}
-.team h2 {
-  color: #ED7477;
-}
-.team img {
-  border-radius: 50% 50% 50% 50%;
 }
 h3 {
   font-size: 30px;
@@ -970,7 +961,6 @@ footer {
   }
   .portfolio li img {
     width: 100%;
-    vertical-align: middle;
   }
   .img-indent {
     float: none;
@@ -1127,6 +1117,7 @@ footer {
   }
   .thumbnail-1 > img {
     width: 100%;
+    
   }
   #form-search input {
     width: 70%;
@@ -1382,4 +1373,16 @@ h7 {
     margin-right: auto;
     margin-top: 5px;
   }
+}
+
+
+/*---------------------events page------------------------------*/
+
+.eventheading {
+  font-size: 20px;
+  color: #ffe5e5;
+}
+
+.sdescrip {
+  font-size: 15px;
 }
