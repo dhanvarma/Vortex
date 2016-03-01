@@ -347,6 +347,10 @@ p {
   color: #ffffff;
   font-weight: normal;
 }
+.vision strong {
+  color: #ffffff;
+  font-weight: normal;
+}
 .border-horiz {
   background: url(../img/border-horiz.gif) repeat-x 0 0;
   height: 2px;
@@ -1126,7 +1130,7 @@ footer {
   }
   .thumbnail-1 > img {
     width: 100%;
-    
+
   }
   #form-search input {
     width: 70%;
