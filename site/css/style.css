@@ -8,6 +8,9 @@ a[href^="tel:"] {
 .color-1 {
   color: #efedef;
 }
+.color-2 {
+  color: #E85356
+}
 .img-indent {
   margin: 0px 30px 0 0;
   float: left;
@@ -239,6 +242,12 @@ h2 {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+.contactUs {
+  text-align: center;
+}
+.contactUs h4 {
+  margin-bottom: 80px;
 }
 .team {
   text-align: center;
