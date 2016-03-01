@@ -243,21 +243,7 @@ h2 {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.contactUs {
-  text-align: center;
-}
-.contactUs h4 {
-  margin-bottom: 80px;
-}
-.team {
-  text-align: center;
-}
-.team h2 {
-  color: #ED7477;
-}
-.team img {
-  border-radius: 50% 50% 50% 50%;
-}
+
 h3 {
   font-size: 30px;
   line-height: 34px;
@@ -1415,4 +1401,38 @@ h7 {
 
 .sdescrip {
   font-size: 15px;
+}
+
+/*---------------------sponsors------------------------------*/
+
+.sponsorLogo img {
+  width: 300px;
+}
+
+
+
+
+/*---------------------contact us------------------------------*/
+
+
+.contactUs {
+  text-align: center;
+}
+.contactUs h4 {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+/*---------------------team------------------------------*/
+
+
+
+.team {
+  text-align: center;
+}
+.team h2 {
+  color: #ED7477;
+}
+.team img {
+  border-radius: 50% 50% 50% 50%;
 }
