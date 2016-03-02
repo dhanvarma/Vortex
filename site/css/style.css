@@ -1422,15 +1422,32 @@ h7 {
   bottom: 0;
 }
 
-/*---------------------contact us------------------------------*/
+*---------------------contact us------------------------------*/
 
+@media (max-width: 700px) {
+  .contacth {
+    font-size: 20px;
+  }
+  .contacttitle {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 700px) {
+  .contacth {
+    font-size: 30px;
+  }
+  .contacttitle {
+    font-size: 60px;
+  }
+}
 
 .contactUs {
   text-align: center;
 }
 .contactUs h4 {
   margin-bottom: 10px;
-  font-size: 30px;
+  
 }
 
 /*---------------------team------------------------------*/
