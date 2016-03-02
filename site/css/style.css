@@ -1476,8 +1476,11 @@ h7 {
     background: rgba(0,0,0,0.9);
     float: left;
     width: 100%;
-    top: 140px;
-    position: absolute;
+    position: relative;
+    margin-right: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: auto;
     height: 150%;
     display: none;
   }
