@@ -1446,23 +1446,9 @@ h7 {
 .team img {
   border-radius: 50% 50% 50% 50%;
 }
-
-.GAoff div, .ASoff div, .KSCoff div, .AGoff div, .SDoff div, .MKoff div, .DVoff div {
-  display: none;
+.teamEmail {
+  font-size: 1.5em;
 }
-
-.GAoff:hover , .GAon:hover, .ASoff:hover , .ASon:hover, .KSCoff:hover , .KSCon:hover, .AGoff:hover , .AGon:hover, .SDoff:hover , .SDon:hover, .MKoff:hover , .MKon:hover, .DVoff:hover , .DVon:hover  {
-  cursor: pointer;
-}
-.GAon div, .ASon div, .KSCon div, .AGon div, .SDon div, .MKon div, .DVon div {
-  display: block;
-}
-.off:hover, .on:hover {
-  cursor: pointer;
-}
-.off div {
-  visibility: hidden;
-}
-.on div {
-  visibility: visible;
+#collapseInfo img {
+  border-radius: 0;
 }

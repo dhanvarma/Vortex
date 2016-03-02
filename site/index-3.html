@@ -30,11 +30,12 @@
 
     jQuery('.spinner').animate({'opacity':0},1000,'easeOutCubic',function (){jQuery(this).css('display','none')});
   		  });
-				function clickExpand() {
-					if(this.className==='off')
-						this.className='on';
+				function clickExpand(nam) {
+					var div=document.getElementById("collapseInfo"+nam);
+					if(div.style.visibility==='hidden')
+						div.style.visibility='visible';
 					else
-					  this.className='off';
+						div.style.visibility='hidden';
 				};
 	</script>
 
@@ -88,40 +89,40 @@
 		<h2>General Seceretary</h2>
 		<br><br>
 		<div>
-			<a class="GAoff" onclick="if(this.className==='GAoff') this.className='GAon'; else this.className='GAoff';return False" style="text-decoration: none;">
-				<img alt="" src="img/page3-img1.jpg" width="160" height="160"></img>
-				<h3>Gorish Aggarwal</h3>
-				<div>E-Mail: gorish1995@gmail.com</div>
-				<a target="_blank" href="https://www.facebook.com/gorish.aggarwal.5"><img class="collapseImg" width=25px height=25px src="img/page3-img30.png"></img></a>
-			</a>
+			<img class="GA" alt="" src="img/page3-img1.jpg" onclick="clickExpand(this.className)" width="160" height="160"></img>
+			<h3>Gorish Aggarwal</h3>
+			<div id="collapseInfoGA" style="visibility: hidden;">
+				<p class="color-3 teamEmail">E-Mail: gorish1995@gmail.com</p>
+				<a target="_blank" href="https://www.facebook.com/gorish.aggarwal.5"><img width="25" height="25" src="img/page3-img30.png"></img></a>
+			</div>
 		</div>
 		<br>
 		<h2 style="border-top: solid; border-top-color: #4c4c4c;"><br>Core Team</h2>
 		<br><br>
     		<div class="row-fluid">
 			<div class="span4">
-				<a class="ASoff" onclick="if(this.className==='ASoff') this.className='ASon'; else this.className='ASoff';return False" style="text-decoration: none;">
-					<img alt="" src="img/page3-img2.jpg" width="160" height="160"></img>
-					<h3>Akshat Srivastava</h3>
-					<div>E-Mail: akshatsrivastavamail@gmail.com</div>
-					<a target="_blank" href="https://www.facebook.com/akshat.srivastava.5811"><img class="collapseImg" width=25px height=25px src="img/page3-img30.png"></img></a>
-				</a>
+				<img class="AS" alt="" src="img/page3-img2.jpg" onclick="clickExpand(this.className)" width="160" height="160"></img>
+				<h3>Akshat Srivastava</h3>
+				<div id="collapseInfoAS" style="visibility: hidden;">
+					<p class="color-3 teamEmail">E-Mail: akshatsrivastavamail@gmail.com</p>
+					<a target="_blank" href="https://www.facebook.com/akshat.srivastava.5811"><img width="25" height="25" src="img/page3-img30.png"></img></a>
+				</div>
 			</div>
 			<div class="span4">
-				<a class="KSCoff" onclick="if(this.className==='KSCoff') this.className='KSCon'; else this.className='KSCoff';return False" style="text-decoration: none;">
-					<img alt="" src="img/page3-img3.jpg" width="160" height="160"></img>
-					<h3>Karan Singh Chauhan</h3>
-					<div>E-Mail: k.chauhan2910@gmail.com</div>
-					<a target="_blank" href="https://www.facebook.com/profile.php?id=100006261300095"><img class="collapseImg" width=25px height=25px src="img/page3-img30.png"></img></a>
-				</a>
+				<img class="KSC" alt="" src="img/page3-img3.jpg" onclick="clickExpand(this.className)" width="160" height="160"></img>
+				<h3>Karan Singh Chauhan</h3>
+				<div id="collapseInfoKSC" style="visibility: hidden;">
+					<p class="color-3 teamEmail">E-Mail: k.chauhan2910@gmail.com</p>
+					<a target="_blank" href="https://www.facebook.com/profile.php?id=100006261300095"><img width="25" height="25" src="img/page3-img30.png"></img></a>
+				</div>
 			</div>
 			<div class="span4">
-				<a class="AGoff" onclick="if(this.className==='AGoff') this.className='AGon'; else this.className='AGoff';return False" style="text-decoration: none;">
-					<img alt="" src="img/page3-img4.jpg" width="160" height="160"></img>
-					<h3>Anmol Gupta</h3>
-					<div>E-Mail: anmolgpt96@gmail.com</div>
-					<a target="_blank" href="https://www.facebook.com/anmol.gupta.1272"><img class="collapseImg" width=25px height=25px src="img/page3-img30.png"></img></a>
-				</a>
+				<img class="AG" alt="" src="img/page3-img4.jpg" onclick="clickExpand(this.className)" width="160" height="160"></img>
+				<h3>Anmol Gupta</h3>
+				<div id="collapseInfoAG" style="visibility: hidden;">
+					<p class="color-3 teamEmail">E-Mail: anmolgpt96@gmail.com</p>
+					<a target="_blank" href="https://www.facebook.com/anmol.gupta.1272"><img width="25" height="25" src="img/page3-img30.png"></img></a>
+				</div>
 			</div>
 		</div>
 		<br><br>
@@ -129,32 +130,32 @@
 		<br><br>
     <div class="row-fluid">
 			<div class="span12">
-				<a class="SDoff" onclick="if(this.className==='SDoff') this.className='SDon'; else this.className='SDoff';return False" style="text-decoration: none;">
-					<img alt="" src="img/page3-img7.jpg" width="160" height="160"></img>
-					<h3>Sanchit Dayal</h3>
-					<div>E-Mail: </div>
-					<a target="_blank" href="https://www.facebook.com/sanchit.dayal.3"><img class="collapseImg" width=25px height=25px src="img/page3-img30.png"></img></a>
-				</a>
+				<img  class="SD" alt="" src="img/page3-img7.jpg" onclick="clickExpand(this.className)" width="160" height="160"></img>
+				<h3>Sanchit Dayal</h3>
+				<div id="collapseInfoSD" style="visibility: hidden;">
+					<p class="color-3 teamEmail">E-Mail:</p>
+					<a target="_blank" href="https://www.facebook.com/sanchit.dayal.3"><img width="25" height="25" src="img/page3-img30.png"></img></a>
+				</div>
 			</div>
 		</div>
 		<h2 style="border-top: solid; border-top-color: #4c4c4c;"><br>Website Coordinators</h2>
 		<br><br>
     <div class="row-fluid">
 			<div class="span6">
-				<a class="MKoff" onclick="if(this.className==='MKoff') this.className='MKon'; else this.className='MKoff';return False" style="text-decoration: none;">
-					<img alt="" src="img/page3-img5.jpg" width="160" height="160"></img>
-					<h3>Manjeet Kumar</h3>
-					<div>E-Mail: manjeetk9497@gmail.com</div>
-					<a target="_blank" href="https://www.facebook.com/dhananjay.varma.555"><img class="collapseImg" width=25px height=25px src="img/page3-img30.png"></img></a>
-				</a>
+				<img class="MK" alt="" src="img/page3-img5.jpg" onclick="clickExpand(this.className)" width="160" height="160"></img>
+				<h3>Manjeet Kumar</h3>
+				<div id="collapseInfoMK" style="visibility: hidden;">
+					<p class="color-3 teamEmail">E-Mail: manjeetk9497@gmail.com</p>
+					<a target="_blank" href="https://www.facebook.com/manjeetkumar97"><img width="25" height="25" src="img/page3-img30.png"></img></a>
+				</div>
 			</div>
 			<div class="span6">
-				<a class="off" onclick="clickExpand()" style="text-decoration: none;">
-					<img alt="" src="img/page3-img6.jpg" width="160" height="160"></img>
+					<img class="DV" alt="" src="img/page3-img6.jpg" onclick="clickExpand(this.className)" width="160" height="160"></img>
 					<h3>Dhananjay Varma</h3>
-					<div>E-Mail: dhanrajvarma2@gmail.com</div>
-					<div><a target="_blank" href="https://www.facebook.com/dhananjay.varma.555"><img width=25px height=25px src="img/page3-img30.png"></img></a></div>
-				</a>
+					<div id="collapseInfoDV" style="visibility: hidden;">
+						<p class="color-3 teamEmail">E-Mail: dhanrajvarma2@gmail.com</p>
+						<a target="_blank" href="https://www.facebook.com/dhananjay.varma.555"><img width="25" height="25" src="img/page3-img30.png"></img></a>
+					</div>
    		</div>
 		</div>
 		<br><br><br>
