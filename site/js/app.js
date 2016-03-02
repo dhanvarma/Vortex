@@ -27,14 +27,23 @@ console.log("manjeet");
 
 $(".eventsdetailed1 a").click(function(event) {
 	event.preventDefault();
-	$("body").append($overlay1);
+	$(".overlaydiv").append($overlay1);
 	$overlay1.show();
+	$overlay1p.show();
+	
 });
+
+
+$(".homebtn1 a").click(function(event) {
+	$("#bplanbtn").trigger("click");
+});
+
 
 $overlay1.click(function() {
 		// hide the overlay.
 		$overlay1.hide();
 });
+
 
 $(".lbButton2").click(function() {
 		// hide the overlay.
