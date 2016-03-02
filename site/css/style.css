@@ -1445,10 +1445,11 @@ h7 {
 }
 .team img {
   border-radius: 50% 50% 50% 50%;
+  cursor: pointer;
 }
 .teamEmail {
   font-size: 1.5em;
 }
-#collapseInfo img {
+.team div div div img {
   border-radius: 0;
 }
