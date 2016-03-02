@@ -175,6 +175,12 @@ a:hover {
   -moz-border-radius: 500px;
   border-radius: 500px;
 }
+.img-responsive {
+  display: block;
+  width: 100% \9;
+  max-width: 100%;
+  height: auto;
+}
 .row {
   margin-left: -20px;
   *zoom: 1;
