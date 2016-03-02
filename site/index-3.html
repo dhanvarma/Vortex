@@ -30,7 +30,12 @@
 
     jQuery('.spinner').animate({'opacity':0},1000,'easeOutCubic',function (){jQuery(this).css('display','none')});
   		  });
-
+				function clickExpand() {
+					if(this.className==='off')
+						this.className='on';
+					else
+					  this.className='off';
+				};
 	</script>
 
 	<!--[if lt IE 8]>
@@ -144,11 +149,11 @@
 				</a>
 			</div>
 			<div class="span6">
-				<a class="DVoff" onclick="if(this.className==='DVoff') this.className='DVon'; else this.className='DVoff';return False;" style="text-decoration: none;">
+				<a class="off" onclick="clickExpand()" style="text-decoration: none;">
 					<img alt="" src="img/page3-img6.jpg" width="160" height="160"></img>
 					<h3>Dhananjay Varma</h3>
 					<div>E-Mail: dhanrajvarma2@gmail.com</div>
-					<a target="_blank" href="https://www.facebook.com/dhananjay.varma.555"><img class="collapseImg" width=25px height=25px src="img/page3-img30.png"></img></a>
+					<div><a target="_blank" href="https://www.facebook.com/dhananjay.varma.555"><img width=25px height=25px src="img/page3-img30.png"></img></a></div>
 				</a>
    		</div>
 		</div>

@@ -1457,3 +1457,12 @@ h7 {
 .GAon div, .ASon div, .KSCon div, .AGon div, .SDon div, .MKon div, .DVon div {
   display: block;
 }
+.off:hover, .on:hover {
+  cursor: pointer;
+}
+.off div {
+  visibility: hidden;
+}
+.on div {
+  visibility: visible;
+}
