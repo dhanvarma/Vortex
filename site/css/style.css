@@ -1489,6 +1489,12 @@ h7 {
   .lbContent {
     width: 70%;
   }
+  .lbContentD {
+    font-size: 20px;
+  }
+  .lbContent h2 {
+    font-size: 35px;
+  }
 }
 
 @media (max-width: 770px) {
@@ -1497,11 +1503,18 @@ h7 {
     float: left;
     width: 100%;
     position: fixed;
+    top: 0;
     height: 100%;
     display: none;
   }
   .lbContent {
     width: 70%;
+  }
+  .lbContentD {
+    font-size: 15px;
+  }
+  .lbContent h2 {
+    font-size: 25px;
   }
   /*
   .overlay {
@@ -1538,6 +1551,12 @@ h7 {
   .lbContent {
     width: 70%;
   }
+  .lbContentD {
+    font-size: 20px;
+  }
+  .lbContent h2 {
+    font-size: 35px;
+  }
 }
 
 .lbContent {
@@ -1550,16 +1569,9 @@ h7 {
 .lbContent h2 {
   color: #ff4c4c;
   text-align: center;
-  font-size: 35px;
-}
-
-.lbContent1 h2 {
-  color: #ff4c4c;
-  text-align: center;
 }
 
 .lbContentD {
-  font-size: 20px;
   color: #eee;
   line-height: 30px;
   margin-top: 50px;
