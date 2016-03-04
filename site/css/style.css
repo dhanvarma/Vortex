@@ -1481,7 +1481,7 @@ h7 {
     background: rgba(0,0,0,0.9);
     float: left;
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 223px;
     height: 150%;
     display: none;
@@ -1496,13 +1496,23 @@ h7 {
     background: rgba(0,0,0,0.9);
     float: left;
     width: 100%;
-    position: relative;
+    position: fixed;
+    height: 100%;
+    display: none;
+  }
+  .lbContent {
+    width: 70%;
+  }
+  /*
+  .overlay {
+    background: rgba(0,0,0,0.9);
+    float: left;
+    width: 100%;
+    position: fixed;
     margin-right: auto;
     margin-top: auto;
     margin-left: auto;
     margin-bottom: auto;
-    height: 150%;
-    display: none;
   }
   .lbContent {
     width: 100%;
@@ -1511,7 +1521,7 @@ h7 {
   }
   .eventsdetailed6 {
     float: left;
-  }
+  }*/
 }
 
 @media (min-width: 1300px) {

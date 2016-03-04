@@ -29,7 +29,6 @@ $(".eventsdetailed1 a").click(function(event) {
 	event.preventDefault();
 	$(".overlaydiv").append($overlay1);
 	$overlay1.show();
-	$overlay1p.show();
 	
 });
 
