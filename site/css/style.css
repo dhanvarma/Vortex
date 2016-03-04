@@ -1490,6 +1490,8 @@ h7 {
     width: 70%;
   }
   .lbContentD {
+    line-height: 30px;
+    margin-top: 50px;
     font-size: 20px;
   }
   .lbContent h2 {
@@ -1508,9 +1510,11 @@ h7 {
     display: none;
   }
   .lbContent {
-    width: 70%;
+    width: 95%;
   }
   .lbContentD {
+    line-height: 25px;
+    margin-top: 20px;
     font-size: 15px;
   }
   .lbContent h2 {
@@ -1552,6 +1556,8 @@ h7 {
     width: 70%;
   }
   .lbContentD {
+    line-height: 30px;
+    margin-top: 50px;
     font-size: 20px;
   }
   .lbContent h2 {
@@ -1573,8 +1579,6 @@ h7 {
 
 .lbContentD {
   color: #eee;
-  line-height: 30px;
-  margin-top: 50px;
   text-align: center;
 }
 
