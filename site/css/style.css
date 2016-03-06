@@ -268,7 +268,7 @@ h5 {
   letter-spacing: -1px;
 }
 p {
-  padding-bottom: 20px;
+  padding-bottom: 25px;
   margin: 0;
 }
 /*--- header end ------*/
@@ -321,7 +321,7 @@ p {
 }
 /*------ thumbnails-1 ------- */
 .thumbnails-1 {
-  margin: 0;
+  margin: auto;
   list-style: outside none;
 }
 .thumbnails-1 > li {
@@ -364,6 +364,7 @@ p {
 /*------ list-services ------- */
 .list-services .thumbnail-1 {
   background: #000000;
+  height:510px;
   padding: 10px;
 }
 .list-services a {
@@ -372,9 +373,6 @@ p {
 }
 .list-services p {
   padding-bottom: 20px;
-}
-.list-services section {
-  padding: 0 20px;
 }
 .list-services li {
   margin-bottom: 30px;
@@ -1481,21 +1479,13 @@ h7 {
     background: rgba(0,0,0,0.9);
     float: left;
     width: 100%;
-    position: fixed;
+    position: absolute;
     top: 223px;
     height: 150%;
     display: none;
   }
   .lbContent {
     width: 70%;
-  }
-  .lbContentD {
-    line-height: 30px;
-    margin-top: 50px;
-    font-size: 20px;
-  }
-  .lbContent h2 {
-    font-size: 35px;
   }
 }
 
@@ -1504,32 +1494,13 @@ h7 {
     background: rgba(0,0,0,0.9);
     float: left;
     width: 100%;
-    position: fixed;
-    top: 0;
-    height: 100%;
-    display: none;
-  }
-  .lbContent {
-    width: 95%;
-  }
-  .lbContentD {
-    line-height: 25px;
-    margin-top: 20px;
-    font-size: 15px;
-  }
-  .lbContent h2 {
-    font-size: 25px;
-  }
-  /*
-  .overlay {
-    background: rgba(0,0,0,0.9);
-    float: left;
-    width: 100%;
-    position: fixed;
+    position: relative;
     margin-right: auto;
     margin-top: auto;
     margin-left: auto;
     margin-bottom: auto;
+    height: 150%;
+    display: none;
   }
   .lbContent {
     width: 100%;
@@ -1538,7 +1509,7 @@ h7 {
   }
   .eventsdetailed6 {
     float: left;
-  }*/
+  }
 }
 
 @media (min-width: 1300px) {
@@ -1555,14 +1526,6 @@ h7 {
   .lbContent {
     width: 70%;
   }
-  .lbContentD {
-    line-height: 30px;
-    margin-top: 50px;
-    font-size: 20px;
-  }
-  .lbContent h2 {
-    font-size: 35px;
-  }
 }
 
 .lbContent {
@@ -1575,10 +1538,19 @@ h7 {
 .lbContent h2 {
   color: #ff4c4c;
   text-align: center;
+  font-size: 35px;
+}
+
+.lbContent1 h2 {
+  color: #ff4c4c;
+  text-align: center;
 }
 
 .lbContentD {
+  font-size: 20px;
   color: #eee;
+  line-height: 30px;
+  margin-top: 50px;
   text-align: center;
 }
 
@@ -1608,113 +1580,4 @@ h7 {
 .lbButton2 a:hover {
   color: #eee;
   background-color: #000;
-}
-
-
-.footermain {
-  background-color: #f2f2f2;
-}
-
-.headermain {
-  background-color: #f2f2f2;
-}
-
-.thumbnailmod li {
-  list-style: none;
-  float: left;
-}
-
-@media (min-width: 1300px) {
-  .containermod {
-  width: 80%;
-  }
-}
-
-@media (max-width: 1300px) and (min-width: 700px) {
-  .containermod {
-    width: 90%;
-  }
-}
-
-@media (min-width: 1590px) {
-  .HCdata {
-    height: 90px;
-  }
-}
-
-@media (max-width: 1590px) and (min-width: 1300px) {
-  .HCdata {
-    height: 120px;
-  }
-}
-
-@media (max-width: 880px) and (min-width: 700px) {
-  .HCdata {
-    height: 120px;
-  }
-}
-
-@media (max-width: 1300px) and (min-width: 1100px) {
-  .HCdata {
-    height: 125px;
-  }
-}
-
-@media (max-width: 1100px) and (min-width: 880px) {
-  .HCdata {
-    height: 90px;
-  }
-}
-
-
-
-@media (min-width: 1100px) {
-  .thumbnailmod li {
-    width: 20%;
-  }
-}
-
-@media (max-width: 1100px) and (min-width: 700px) {
-  .thumbnailmod li {
-    width: 33%;
-  }
-}
-
-@media (max-width: 700px) and (min-width: 0px) {
-  .thumbnailmod li {
-    width: 100%;
-    border-top: solid;
-    border-top-color: #fff;
-    border-bottom-color: #fff;
-    border-bottom: solid;
-    border-width: 0.7px;
-  }
-  .containermod {
-    width: 100%;
-  }
-  .HCdata {
-    height: 80px;
-  }
-}
-
-.HChead h3 {
-  text-align: center;
-}
-
-.HCdata {
-  padding-top: 10px;
-  text-align: center;
-  width: 90%;
-  margin-right: 5%;
-  margin-left: 5%;
-}
-
-.spa252 img {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.readmorebtn {
-  height: 50px;
-  text-align: center;
 }
