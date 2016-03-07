@@ -437,12 +437,12 @@ a:hover {
   *margin-left: 16.914893617021278%;
 }
 .row-fluid .offset1 {
-margin-left: 10.638297872340425%;
- *margin-left: 10.53191489361702%;
+margin:auto;
+  *margin:auto;
 }
 .row-fluid .offset1:first-child {
-  margin-left: 8.51063829787234%;
-  *margin-left: 8.404255319148937%;
+  margin:auto;
+  *margin:auto;
 }
 [class*="span"].hide,
 .row-fluid [class*="span"].hide {
